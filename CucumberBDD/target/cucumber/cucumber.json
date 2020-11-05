@@ -1,0 +1,231 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "The automation environment is set with all initial condition",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4442000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Web browser is selected as Chrome",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.web_browser_is_selected_as_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-05T09:11:04.724Z",
+        "line": 9,
+        "name": "Verify the first news in The Garudian News Home Page",
+        "description": "",
+        "id": "verify-the-authenticity-of-the-gaurdian-news;verify-the-first-news-in-the-garudian-news-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Jhon is a fake new validator at The Gaurdian",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.jhon_is_a_fake_news_validator_at_the_gaurdian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1415000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Jhon navigates to The Gaurdian News home page",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.jhon_navigates_to_then_gaurdian_news_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Picks the first new displayed",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.pick_the_first_news_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Jhon checks for the date of publish is today",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.check_for_the_date_of_publish()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "The automation environment is set with all initial condition",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Web browser is selected as Chrome",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.web_browser_is_selected_as_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-05T09:11:10.652Z",
+        "line": 15,
+        "name": "Verify the first search result is from The Gaurdian",
+        "description": "",
+        "id": "verify-the-authenticity-of-the-gaurdian-news;verify-the-first-search-result-is-from-the-gaurdian",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 980000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Jhon opens up google search engine",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.navigate_to_google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1604000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Searches for the 1st news of the gaurdian",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.search_in_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the 1st appearing link is from The Gaurdian",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.get_the_source_of_first_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "The automation environment is set with all initial condition",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Web browser is selected as Chrome",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.web_browser_is_selected_as_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-05T09:11:13.280Z",
+        "line": 27,
+        "name": "Verify the news from other sources",
+        "description": "",
+        "id": "verify-the-authenticity-of-the-gaurdian-news;verify-the-news-from-other-sources;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Jhon picks the search result other than The Gardian",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.validate_the_authenticit_of_the_news()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Checks the news content",
+            "match": {
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.get_the_first_news_content()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify the 60 of words match to confirm the authenticity",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 11
+                }
+              ],
+              "location": "jpmcInterviewSolution.StepDefinitions.StepDef.step_Ten(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the AUTHENTICITY of THE GAURDIAN NEWS",
+    "description": "",
+    "id": "verify-the-authenticity-of-the-gaurdian-news",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TheGaurdianNews/VerifyFakeNews.feature",
+    "tags": []
+  }
+]

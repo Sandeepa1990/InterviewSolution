@@ -1,0 +1,9 @@
+jpmcInterviewSolution\PageObjects\TheGaurdianHomePage.class
+jpmcInterviewSolution\ProjectUtility\LoggerUtil.class
+jpmcInterviewSolution\ProjectUtility\Environment.class
+jpmcInterviewSolution\PageObjects\GoogleSearchPage.class
+jpmcInterviewSolution\DriverManger\SingletonDriver.class
+jpmcInterviewSolution\StepDefinitions\StepDef.class
+jpmcInterviewSolution\CucumberBDD\TestRunner.class
+jpmcInterviewSolution\ProjectUtility\DriverType.class
+jpmcInterviewSolution\ProjectUtility\DataContainer.class
